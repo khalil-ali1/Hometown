@@ -1,0 +1,89 @@
+body{
+background:rgb(94, 102, 105);
+margin: 0;
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+
+}
+.container{
+width: 60%;
+height: 80%;
+overflow: hidden;
+background: gray;
+border: 2px solid white;
+border-radius: 15px;
+background:linear-gradient(to right,black, gray);
+}
+.header{
+    background-image: url(images/london-night.jpg);
+    background-size: cover;
+    height: 500px;
+    padding: 1px 0px 30px 0px;
+    border-radius: 15px;
+}
+
+.header-title{
+    margin: 75px auto 0px auto;
+}
+.header-subtitle{
+    background:linear-gradient(to right,rgba(180, 176, 176, 0.753), rgb(75, 70, 70));
+    width: 200px;
+    margin: 20px auto;
+    text-size-adjust:thin;
+    padding: 5px 0px 5px 0px;
+}
+
+.hero-title{
+    background-color: darkgrey;
+    width: 75%;
+    margin: 5px auto;
+}
+h3{
+    margin: 10px auto 0px auto;
+    
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    
+}
+.hero{
+    margin-top: 60px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 50px 0px;
+    
+}
+
+.card{
+    margin-top: 20px;
+}
+.guide-card{
+    background: linear-gradient(to right,gray, rgb(46, 27, 27));
+    margin: 30px auto;
+    border: 2px solid white;
+    border-radius: 15px 15px 15px 15px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.text{
+    margin-left: 25px;
+}
+
+
+
