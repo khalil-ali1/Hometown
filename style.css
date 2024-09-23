@@ -5,10 +5,40 @@ display: flex;
 justify-content: center;
 text-align: center;
 color: white;
+}
+.navbar{
+    background: #000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav-h2{
+    margin: 0px 0px 0px 100px;
+    background: linear-gradient(to right,rgba(180, 176, 176, 0.753), rgb(75, 70, 70));;
+}
+
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    margin: 0px 15px ;
+    list-style: none;
+}
+.nav-a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+.nav-a:hover{color: aqua;
 
 }
+a {
+    color: rgb(123, 123, 241);
+  }
 .container{
-width: 60%;
+width: 65%;
 height: 80%;
 overflow: hidden;
 background: gray;
@@ -25,7 +55,7 @@ background:linear-gradient(to right,black, gray);
 }
 
 .header-title{
-    margin: 75px auto 0px auto;
+    margin: 20px auto 0px auto;
 }
 .header-subtitle{
     background:linear-gradient(to right,rgba(180, 176, 176, 0.753), rgb(75, 70, 70));
@@ -35,11 +65,8 @@ background:linear-gradient(to right,black, gray);
     padding: 5px 0px 5px 0px;
 }
 
-.hero-title{
-    background-color: darkgrey;
-    width: 75%;
-    margin: 5px auto;
-}
+
+
 h3{
     margin: 10px auto 0px auto;
     
@@ -54,15 +81,43 @@ h3{
     margin-top: 60px;
 }
 .cards{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px 0px 50px 0px;
+
+    flex-direction: column;
+    margin: 25px 0px 25px 0px;
     
 }
 
 .card{
+    background: rgb(0,0,0,0.3);
+    margin: 5px;
+    margin-bottom: 50px;
     margin-top: 20px;
+    padding-top:35px ;
+    width: 350px;
+    border-radius: 15px;
 }
+.hero-title{
+    background-color: rgb(56, 52, 52);
+    width: 50%;
+    margin: 5px auto;}
+
+.card-paragraph{
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.first-col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .guide-card{
     background: linear-gradient(to right,gray, rgb(46, 27, 27));
     margin: 30px auto;
