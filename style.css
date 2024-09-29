@@ -121,7 +121,9 @@ h3{
     justify-content: space-around;
     align-items: center;
 }
-
+.random-selector{
+    margin-bottom: 50px;
+}
 .guide-card{
     background: linear-gradient(to right,gray, rgb(46, 27, 27));
     margin: 30px auto;
@@ -143,6 +145,7 @@ h3{
 .text{
     margin-left: 25px;
 }
-
-
-
+#list{
+    text-decoration: none;
+    list-style: none;
+}
